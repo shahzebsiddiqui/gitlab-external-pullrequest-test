@@ -8,7 +8,7 @@ github-pull-requests:
   script: |
     - echo 'this should run on pull requests'
     - echo $CI_PIPELINE_SOURCE
-    - env | grep CI_
+    - env | grep CI_ 
   only:
     - external_pull_requests
 
